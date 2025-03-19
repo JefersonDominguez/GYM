@@ -1,0 +1,53 @@
+
+
+/* Estilo para el submenú */
+.submenu {
+    display: none;
+    
+   
+position: absolute;
+    background: var(--light-color); /* Color de fondo del submenú */
+    padding: 0; /* Eliminamos el relleno para que los fondos estén juntos */
+    z-index: 1;
+    top: 110%; /* Aparece debajo del elemento padre */
+    left: 0; /* Aparece alineado a la izquierda del elemento padre */
+    
+   
+opacity: 0; /* Establecemos la opacidad inicial a 0 para ocultar el submenú */
+    visibility: hidden; /* Ocultamos el submenú */
+    transition: opacity 0.6s ease, visibility 0.6s ease; /* Agregamos transiciones suaves */
+}
+
+/* Estilo para los elementos del submenú con fondo negro */
+.submenu li {
+    margin: 0; /* Eliminamos el margen para que los fondos estén juntos */
+    list-style-type: none;
+    background-color: #171819; /* Fondo negro para todos los elementos del submenú */
+    padding: 5px 10px; /* Añadimos relleno para separar los elementos */
+}
+
+.submenu a {
+    color: #fff; /* Cambia el color del texto del submenú a tu preferencia */
+    text-decoration: none;
+    font-size: 16px; /* Cambia el tamaño de fuente según tus necesidades */
+    display: block;
+    transition: background-color 0.9s; /* Efecto de transición para el color de fondo */
+}
+
+/* Resaltar el elemento seleccionado en el submenú */
+.submenu a.active {
+    background-color: #ff6600; /* Cambia el color de fondo del elemento seleccionado */
+    color: #fff; /* Cambia el color del texto del elemento seleccionado */
+}
+
+/* Mostrar el submenú al pasar el cursor sobre "Clases" */
+.nav-item:hover .submenu {
+    display: block;
+    opacity: 1; /* Hacemos el submenú completamente visible */
+    visibility: visible; /* Hacemos el submenú visible */
+}
+
+/* Añade esta regla para el elemento padre de submenú */
+.nav-item {
+    position: relative; /* Añade esta línea para que el submenú se posicione correctamente */
+}

@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Contenedor para los productos */
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espacio entre los productos */
+    gap: 10px; /* Espacio entre los productos */
+}
+
+/* Estilos de los productos */
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: calc(25% - 10px); /* 4 productos por fila (25% width con espacio) */
+    transition: transform 0.3s;
+    flex-basis: calc(25% - 10px); /* 4 productos por fila (25% width con espacio) */
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 1.2em;
+    color: #888;
+}
+
+.producto button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.producto button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos al hacer hover */
+.producto:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos específicos para la primera fila */
+.fila1 {
+    margin-bottom: 20px; /* Espacio entre las filas */
+}
+
+/* Estilos específicos para la segunda fila */
+.fila2 {
+    /* Si deseas aplicar estilos adicionales a la segunda fila, puedes hacerlo aquí */
+}
+  /* Estilos para la sección de beneficios */
+ .producto ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 7px;
+        }
+
+.producto li {
+            margin-bottom: 2px;
+        }
+        

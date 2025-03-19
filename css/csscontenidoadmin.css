@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 5px; /* Reduje el margen inferior */
+    color: #fff; /* Cambié el color a blanco */
+}
+
+header h1, header p {
+    color: #fff; /* Cambié el color a blanco */
+    margin-bottom: 5px; /* Reduje el margen inferior */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.menu-con-fondo {
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    background-color: #e74c3c; /* Fondo semi-transparente para mejorar legibilidad */
+    margin-bottom: 3px; /* Reduje el margen inferior */
+}
+
+.menu-con-fondo a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.menu-con-fondo a:hover {
+    text-decoration: underline;
+}
+
+.imagen-seccion img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Ajusta según sea necesario */
+}

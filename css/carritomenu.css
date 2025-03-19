@@ -1,0 +1,31 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+
+.nav-item {
+    position: relative;
+}
+
+#totalItemsCarrito {
+    position: absolute;
+    top: -7px; /* Ajusta esta propiedad según sea necesario para alinear con el icono */
+    right: 0;
+    background-color: #ff0000; /* Color de fondo del círculo */
+    color: #fff; /* Color del texto */
+    font-size: 12px; /* Ajusta el tamaño de la fuente según sea necesario */
+    border-radius: 50%; /* Hace que el contenedor sea un círculo */
+    width: 20px; /* Ajusta el tamaño del círculo según sea necesario */
+    height: 20px; /* Ajusta el tamaño del círculo según sea necesario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Añade otros estilos según sea necesario para el icono y el enlace */
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333; /* Puedes cambiar el color del texto del enlace según tu preferencia */
+}

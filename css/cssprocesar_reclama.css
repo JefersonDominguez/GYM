@@ -1,0 +1,62 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 oct. 2023, 13:12:27
+    Author     : Adriana
+*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h2 {
+    color: #f43c14;
+}
+
+hr {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #f43c14;
+}
+
+p {
+    margin: 5px 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* ... tu estilo existente ... */
+
+a {
+    color: #f43c14;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    border: 2px solid #f43c14;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #f43c14;
+    color: #fff;
+}
+

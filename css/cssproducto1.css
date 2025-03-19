@@ -1,0 +1,56 @@
+/* Agrega tus estilos CSS aquí */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.tabla {
+    display: table;
+    width: 100%;
+    margin: 0 auto; /* Margen automático para centrar */
+}
+
+.imagen, .informacion {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.imagen img {
+    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto;
+}
+
+.informacion {
+    padding-left: 20px; /* Otra vez, ajusta según sea necesario */
+}
+
+.precio {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.botones {
+    margin-top: 10px;
+}
+
+.cantidad-input {
+    width: 50px;
+    text-align: center;
+}
+
+/* Estilos para hacer que el diseño sea responsivo */
+@media (max-width: 768px) {
+    .tabla {
+        display: block;
+    }
+
+    .imagen, .informacion {
+        display: block;
+        width: 100%;
+    }
+
+    .imagen img {
+        max-width: 100%; /* Ajusta según sea necesario */
+        height: auto;
+    }
+}

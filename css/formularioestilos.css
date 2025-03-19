@@ -1,0 +1,139 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 ago. 2023, 14:33:58
+    Author     : LAB-USR-LN6377-B0705
+*/
+
+
+
+
+*{
+   
+    padding: 0;
+    
+    
+}
+.formulario {
+  width: calc(50%);
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  border: none;
+  padding: 10px;
+  border-radius: 10px; 
+ 
+  animation: bounceOut;
+  animation-duration: 2s;
+  background-color:#FFFFFFaa;
+}
+
+/* Estilos para los fieldsets */
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none ;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Estilos para la leyenda de los fieldsets */
+legend {
+  font-weight: bold;
+  background-color: #F43C14     ;
+  padding: 5px 10px;
+  border: 1px solid #F43C14 ;
+  border-radius: 5px;
+}
+
+/* Estilos para las etiquetas */
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Estilos para los inputs y select */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="radio"],
+input[type="checkbox"],
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #151515 ;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Cambiar color del botón cuando se pasa el mouse sobre él */
+input[type="submit"]:hover {
+  background-color: #f43c14   ;
+}
+
+/* Cambiar el borde y fondo de los fieldsets cuando se pasa el mouse sobre ellos */
+fieldset:hover {
+  border-color: #D7BDE2 ;
+  background-color: #F4ECF7 ;
+}
+
+/* Cambiar el borde de los inputs y select cuando se pasa el mouse sobre ellos */
+input[type="text"]:hover,
+input[type="radio"]:hover,
+input[type="checkbox"]:hover,
+select:hover {
+  border-color: #007bff;
+}
+
+/* Estilos para la sección de la imagen */
+.control-form {
+  margin-top: 20px; /* Ajusta el espacio entre la descripción y la sección de la imagen */
+}
+
+/* Estilos para la etiqueta del input de archivo */
+label[for="foto"] {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Estilos para el input de archivo */
+#foto {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la imagen mostrada */
+#imagenMostrada {
+  max-width: 100%;
+  max-height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+/* Alinea el botón de envío al centro */
+center {
+  margin-top: 20px;
+}

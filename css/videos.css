@@ -1,0 +1,24 @@
+/* Estilos para el contenedor de videos */
+.video-wrapper {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para los videos */
+.video-wrapper video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para los controles de video */
+.video-wrapper video::-webkit-media-controls {
+    color: #fff;
+}
+
+section.products-services {
+        background-color: #181c1c;
+        color: #ffffff; /* Puedes ajustar el color del texto según tus necesidades */
+    }

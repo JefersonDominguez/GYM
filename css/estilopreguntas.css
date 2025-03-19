@@ -1,0 +1,42 @@
+/* Estilo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0px;
+}
+
+/* Estilo de las preguntas frecuentes */
+section.preguntas-frecuentes {
+    background-color: #f0f0f0;  /* Fondo negro */
+    color: #000;  /* Texto blanco, puedes ajustar según tus necesidades */
+    padding: 20px;  /* Añade espacio alrededor del contenido de la sección */
+}
+
+/* Estilo de las preguntas */
+.pregunta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;  /* Bordes más redondeados */
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  /* Sombra más pronunciada */
+}
+
+.pregunta h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Estilo de las respuestas ocultas */
+.respuesta {
+    display: none;
+    text-align: justify;
+}
+
+/* Estilo para mostrar respuestas al hacer clic en la pregunta */
+.pregunta.clicked .respuesta {
+    display: block;
+}

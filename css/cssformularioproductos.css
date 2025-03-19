@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #f44336; /* Rojo */
+}
+
+form {
+    max-width: 400px;
+    margin: 10px auto;
+    background-color: #f9f9f9; /* Cambié el color del fondo del formulario */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold; /* Hacemos el texto en negrita para destacar los campos */
+}
+
+input,
+button {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px; /* Tamaño de fuente ajustado */
+    box-sizing: border-box; /* Esto asegura que el ancho incluya el padding y el borde */
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #e74c3c; /* Rojo */
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+button:hover {
+    background-color: #000; /* Negro */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.logout-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Estilo para el título "Agregar Nuevo Producto" */
+h1 {
+    color: #f44336; /* Rojo */
+    margin-bottom: 20px;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #f44336; /* Rojo */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}

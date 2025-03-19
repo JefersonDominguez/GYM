@@ -1,0 +1,19 @@
+/* Estilos del Footer */
+.site-footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 50px 0; /* Añade espacio alrededor del contenido del footer */
+}
+
+.site-footer a {
+    color: #fff; /* Enlaces en blanco */
+    text-decoration: none; /* Sin subrayado enlaces normales */
+}
+
+.site-footer a:hover {
+    text-decoration: none;  /* Subraya enlaces al pasar el mouse */
+}
+/* Define el color que desees para el número de teléfono */
+.phone-number {
+    color: #fff; /* Cambia 'red' al color que desees */
+}
